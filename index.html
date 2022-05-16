@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Bai Tap 'Loop'</title>
+
+        <!-- BS4 -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+            integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+            crossorigin="anonymous"
+        />
+    </head>
+    <body>
+        <div class="container my-5">
+            <div class="w-50">
+
+                <!-- Bài 1 -->
+                <h2>Bài 1</h2>
+                <div class="alert alert-primary">
+                    Tìm số nguyên dương nhỏ nhất sao cho: <br>
+                    1 + 2 + ... + n > 10000
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-warning" id="btnTimSoB1">Tìm số</button>
+                </div>
+                <div class="alert alert-danger" id="ketQuaB1"></div>
+                <hr>
+
+
+                <!-- Bài 2 -->
+                <h2>Bài 2</h2>
+                <div class="alert alert-primary">
+                    Nhập số x và n, tính tổng: S(n) = x + x^2 + x^3 +... + x^n.
+                </div>
+                <div class="form-group">
+                    <input class="form-control mb-2" id="nhapSoX" placeholder="Nhập số x">  
+                    <input class="form-control mb-2" id="nhapSoN" placeholder="Nhập số n">
+                    <button class="btn btn-warning" id="btnKetQuaB2">Tính tổng</button>
+                </div>
+                <div class="alert alert-danger" id="ketQuaB2"></div>
+                <hr>
+
+                
+                <!-- Bài 3 -->
+                <h2>Bài 3</h2>
+                <div class="alert alert-primary">
+                    Nhập vào số 'n', tính giai thừa của 'n'.<br>
+                    VD: 1 * 2 *... n
+                </div>
+                <div class="form-group">
+                    <input class="form-control mb-2" id="nhapSoB3" placeholder="Nhập số n">
+                    <button class="btn btn-warning" id="btnTinhGTB3">Tính giai thừa</button>
+                </div>
+                <div class="alert alert-danger" id="ketQuaB3"></div>
+                <hr>
+
+
+                <!-- Bài 4 -->
+                <h2>Bài 4</h2>
+                <div class="alert alert-primary">
+                    Hiện 10 thẻ div, lẻ là màu xanh, chẵn là màu đỏ.
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-warning" id="btnTaoTheMauB4">Tạo thẻ màu</button>
+                </div>
+                <div class="alert alert-warning" id="ketQuaB4"></div>
+                <hr>
+
+                
+                <!-- Bài 5 -->
+                <h2>Bài 5</h2>
+                <div class="alert alert-primary">
+                    In số nguyên tố từ 1 -> 'n'
+                </div>
+                <div class="form-group">
+                    <input class="form-control mb-2" id="nhapSoB5" placeholder="Nhập số n">
+                    <button class="btn btn-warning" id="btnSoNTB5">In số</button>
+                </div>
+                <div class="alert alert-danger" id="ketQuaB5"></div>
+                <hr>
+                
+            </div>
+        </div>      
+
+
+        <!-- JS BS4 -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+            crossorigin="anonymous"
+        ></script>
+
+        <script src="./js/BT1.js"></script>
+        <script src="./js/BT2.js"></script>
+        <script src="./js/BT3.js"></script>
+        <script src="./js/BT4.js"></script>
+        <script src="./js/BT5.js"></script>
+
+        <!-- <script src="./js/nhap.js"></script> -->
+    </body>
+</html>
